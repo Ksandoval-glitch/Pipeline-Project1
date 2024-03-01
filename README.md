@@ -34,6 +34,8 @@ And use "datasets download virus genome taxon 10359"  to download the genome dir
 then perform " unzip ncbi_dataset.zip" to unzip the file downloaded from NCBI. 
 Next, make a local database from the unzipped ncbi file with "makeblastdb -in genomic.fna -out pipeline_part5db -title pipeline_part5db -dbtype nucl " 
 
+then use the pipeline_part5.py script to compare the protein YP_081530.1 to the nucleotide database created. Save the output to a csv file. 
+
 
 
 
