@@ -16,7 +16,15 @@ The script will take the abundance file created in the directory for each sample
  python part3_script path/to/directory. 
 
 Part 4:
+The first step in part 4 is to make a space delimited text file formatted like this: 
 
+sample condition path
+SRR5660030 HCMV /home/ksandoval/DRR5660030
+SRR5660033 HCMV /home/ksandoval/DRR5660033
+SRR5660044 HCMV /home/ksandoval/Pipeline1/DRR5660044
+SRR5660045 HCMV /home/ksandoval/DRR5660045 
+
+This step will require sleuth and kallisto to be installed. 
 
 Part 5:
 
