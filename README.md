@@ -24,9 +24,16 @@ SRR5660033 HCMV /home/ksandoval/DRR5660033
 SRR5660044 HCMV /home/ksandoval/Pipeline1/DRR5660044
 SRR5660045 HCMV /home/ksandoval/DRR5660045 
 
-This step will require sleuth and kallisto to be installed. 
+
+
+This step will require sleuth and kallisto to be installed. pipeline_part4.R script should be run to produce the most significant results. 
 
 Part 5:
+Using the top hit (YP_081530.1), place that in the NCBI database and select the top hit which should be YP_081530.1. Then download the blast file from the "sent to" option in the top right corner of the webpage in a FASTA file format. 
+And use "datasets download virus genome taxon 10359"  to download the genome directly from NCBI from the terminal. 10359 is the taxon id for the Betaherpesvirinae-5 family. 
+then perform " unzip ncbi_dataset.zip" to unzip the file downloaded from NCBI. 
+Next, make a local database from the unzipped ncbi file with "makeblastdb -in genomic.fna -out pipeline_part5db -title pipeline_part5db -dbtype nucl " 
+
 
 
 
